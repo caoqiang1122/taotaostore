@@ -115,7 +115,7 @@
 		//提交到后台的RESTful
 		$.ajax({
 		   type: "POST",
-		   url: "/rest/item",
+		   url: "/rest/item/add",
 		   data: $("#itemAddForm").serialize(),
 		   success: function(msg){
 			   $.messager.alert('提示','新增商品成功!');

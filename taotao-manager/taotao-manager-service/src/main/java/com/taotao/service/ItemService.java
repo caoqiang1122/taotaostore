@@ -3,6 +3,7 @@ package com.taotao.service;
 import com.taotao.common.bean.EasyUiDataGridResponse;
 import com.taotao.common.bean.EasyUiTreeNodeResult;
 import com.taotao.pojo.TbItem;
+import com.taotao.vo.ResponeResult;
 
 import java.util.List;
 
@@ -26,4 +27,12 @@ public interface ItemService {
 	 * 查询商品分类树形节点
 	 */
 	List<EasyUiTreeNodeResult> getItemCatList(long parentId);
+
+	/**
+	 * 新增商品
+	 * @param tbItem 商品表对象
+	 * @param desc 商品描述
+	 * @return
+	 */
+	ResponeResult insertItemAndDesc(TbItem tbItem,String desc);
 }

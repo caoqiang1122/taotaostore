@@ -14,27 +14,18 @@ import com.taotao.pojo.TbItem;
 import com.taotao.service.ItemService;
 
 @Controller
-@RequestMapping("/rest")
 public class ItemController {
 	@Autowired
 	private ItemService itemService;
 
-	
-	@RequestMapping("/item/{itemId}")
-	@ResponseBody
-	private TbItem getItemById(@PathVariable Long itemId){
-		TbItem item = itemService.getItemById(itemId);
-		return item;
-	}
 
+	/**
+	 * 系统的首页面
+	 * @return
+	 */
 	@RequestMapping("/")
 	public String showIndex() {
 		return "index";
-	}
-
-	@RequestMapping("/{page}")
-	public String showIndex(@PathVariable String page) {
-		return page;
 	}
 	
 	/**
@@ -43,18 +34,30 @@ public class ItemController {
 	 * 		请求名称或者页面名称
 	 * @return
 	 */
-	@RequestMapping("/page/{page}")
+	@RequestMapping("/rest/page/{page}")
 	public String showPage(@PathVariable String page) {
 		return page;
 	}
 
-	@RequestMapping("/item")
+	/**
+	 * 分页查询商品列表
+	 * @param page
+	 * @param rows
+	 * @return
+	 */
+	@RequestMapping("/rest/item")
 	@ResponseBody
 	public EasyUiDataGridResponse getItemList(int page,int rows){
 		EasyUiDataGridResponse easyUiDataGridResponse = itemService.getItemList(page, rows);
 		return  easyUiDataGridResponse;
 	}
 
+	/**
+	 * 新增商品
+	 * @param item 商品信息
+	 * @param desc 商品描述
+	 * @return
+	 */
 	@RequestMapping(value="/item/save", method=RequestMethod.POST)
 	@ResponseBody
 	public ResponeResult createItem(TbItem item, String desc) {

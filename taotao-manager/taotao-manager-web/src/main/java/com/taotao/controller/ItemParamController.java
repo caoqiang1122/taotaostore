@@ -8,12 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/rest/item/param")
 public class ItemParamController {
     @Autowired
     private ItemParamService itemParamService;
 
-    @RequestMapping("/list")
+    @RequestMapping("/rest/item/param/list")
     @ResponseBody
     public EasyUiDataGridResponse getItemParamList(int page,int rows){
         EasyUiDataGridResponse easyUiDataGridResponse = itemParamService.getItemParamList(page,rows);

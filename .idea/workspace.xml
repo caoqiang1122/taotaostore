@@ -6,28 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc7ae92f-4dcd-443c-9c08-e7878f6259c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/taotao-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/taotao-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/target/taotao-manager-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/target/taotao-manager-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/taotao-manager-pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-pojo/target/taotao-manager-pojo.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/classes/com/taotao/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/classes/com/taotao/service/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/classes/com/taotao/service/impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/classes/com/taotao/service/impl/ItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/taotao-manager-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/target/taotao-manager-service.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/com/taotao/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/classes/com/taotao/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/com/taotao/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/classes/com/taotao/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/jsp/item-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-common-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-dao-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-dao-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-pojo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web/WEB-INF/lib/taotao-manager-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-    </list>
+    <list default="true" id="cc7ae92f-4dcd-443c-9c08-e7878f6259c3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/taotao-manager/target/" />
     <ignored path="$PROJECT_DIR$/taotao-parent/target/" />
     <ignored path="$PROJECT_DIR$/taotao-manager/taotao-manager-dao/target/" />
@@ -275,7 +254,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="180" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -296,143 +275,6 @@
             <path>
               <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -750,7 +592,7 @@
       <workItem from="1546006707832" duration="635000" />
       <workItem from="1546045934354" duration="2137000" />
       <workItem from="1546048116557" duration="13563000" />
-      <workItem from="1546391249793" duration="2065000" />
+      <workItem from="1546391249793" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1546067397395</created>
@@ -807,7 +649,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74833000" />
+    <option name="totallyTimeSpent" value="75079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,6 +662,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4564343" side_tool="true" weight="0.48644793" />
@@ -839,8 +682,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.5435657" visible="true" weight="0.37660486" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2981455" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5435657" weight="0.37660486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2981455" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49358973" visible="true" weight="0.23123324" />

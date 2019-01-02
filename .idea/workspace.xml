@@ -6,15 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc7ae92f-4dcd-443c-9c08-e7878f6259c3" name="Default" comment="初始化项目">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cc7ae92f-4dcd-443c-9c08-e7878f6259c3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/target/taotao-manager-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-portal/taotaoportal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/taotaoportal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/properties/client.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/properties/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/applicationContext-trans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/taotao-manager/target/" />
     <ignored path="$PROJECT_DIR$/taotao-parent/target/" />
@@ -75,13 +74,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -182,6 +195,7 @@
         <option value="$PROJECT_DIR$/taotao-portal/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-parent/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml" />
       </list>
     </option>
   </component>
@@ -251,13 +265,76 @@
             <path>
               <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaostore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaostore" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -576,7 +653,7 @@
       <workItem from="1546006707832" duration="635000" />
       <workItem from="1546045934354" duration="2137000" />
       <workItem from="1546048116557" duration="13563000" />
-      <workItem from="1546391249793" duration="8645000" />
+      <workItem from="1546391249793" duration="9073000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1546067397395</created>
@@ -606,7 +683,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546071725522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="服务层和表现层环境搭建">
+      <created>1546410107630</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546410107630</updated>
+    </task>
+    <task id="LOCAL-00006" summary="服务层和表现层环境搭建">
+      <created>1546410154122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546410154122</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -633,7 +724,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81413000" />
+    <option name="totallyTimeSpent" value="81841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,11 +757,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5435657" weight="0.37660486" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2981455" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5435657" visible="true" weight="0.37660486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2981455" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3281027" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49358973" visible="true" weight="0.23123324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49358973" visible="true" weight="0.23123324" />
       <window_info id="Web" order="2" sideWeight="0.50641024" side_tool="true" weight="0.25603217" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -720,7 +811,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
+    <MESSAGE value="服务层和表现层环境搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务层和表现层环境搭建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -740,20 +832,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.4.RELEASE/spring-web-4.1.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastdfs-client-java-master/src/main/java/org/csource/fastdfs/TrackerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1092,10 +1170,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-portal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1153,7 +1241,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>taotao-manager-web</last-edited>
+          <last-edited>taotao-manager-pojo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

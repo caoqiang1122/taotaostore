@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-service/taotao-manager-service.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-service/taotao-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web/taotao-manager-web.iml" filepath="$PROJECT_DIR$/taotao-manager/taotao-manager-web/taotao-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-parent/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent/taotao-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-portal/taotaoportal.iml" filepath="$PROJECT_DIR$/taotao-portal/taotaoportal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-rest/taotaorest.iml" filepath="$PROJECT_DIR$/taotao-rest/taotaorest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/taotaostore.iml" filepath="$PROJECT_DIR$/.idea/taotaostore.iml" />
     </modules>
   </component>

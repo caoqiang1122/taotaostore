@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/taotao-manager/taotao-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-rest" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -17,6 +18,8 @@
         <option value="$PROJECT_DIR$/taotao-common/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-manager/taotao-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/fastdfs-client-java-master/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-parent/taotao-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-rest/pom.xml" />
       </list>
     </option>
   </component>

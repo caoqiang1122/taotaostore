@@ -12,6 +12,7 @@
         <module name="taotao-manager-pojo" />
         <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
+        <module name="taotaoportal" />
         <module name="taotaorest" />
       </profile>
     </annotationProcessing>

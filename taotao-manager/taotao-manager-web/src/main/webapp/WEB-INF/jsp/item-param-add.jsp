@@ -41,7 +41,7 @@
 			fun:function(node){
 			$(".addGroupTr").hide().find(".param").remove();
 				//  判断选择的目录是否已经添加过规格
-			  /* $.getJSON("/rest/item/param/" + node.id,function(data){
+			   $.getJSON("/rest/item/param/" + node.id,function(data){
 				  if(data){
 					  $.messager.alert("提示", "该类目已经添加，请选择其他类目。", undefined, function(){
 						 $("#itemParamAddTable .selectItemCat").click();
@@ -49,8 +49,8 @@
 					  return ;
 				  }
 				  $(".addGroupTr").show();
-			  }); */
-				
+			  });
+
 			  $.ajax({
 				   type: "GET",
 				   url: "/rest/item/param/" + node.id,
@@ -69,7 +69,7 @@
 				});
 			}
 		});
-		
+
 		$(".addGroup").click(function(){
 			  var temple = $(".itemParamAddTemplate li").eq(0).clone();
 			  $(this).parent().parent().append(temple);
@@ -84,11 +84,11 @@
 				  $(this).parent().remove();
 			  });
 		 });
-		
+
 		$("#itemParamAddTable .close").click(function(){
 			$(".panel-tool-close").click();
 		});
-		
+
 		$("#itemParamAddTable .submit").click(function(){
 			var params = [];
 			var groups = $("#itemParamAddTable [name=group]");
@@ -98,7 +98,7 @@
 				p.each(function(_i,_e){
 					var _val = $(_e).siblings("input").val();
 					if($.trim(_val).length>0){
-						_ps.push(_val);						
+						_ps.push(_val);
 					}
 				});
 				var _val = $(e).siblings("input").val();
@@ -106,7 +106,7 @@
 					params.push({
 						"group":_val,
 						"params":_ps
-					});					
+					});
 				}
 			});
 			var url = "/rest/item/param/"+$("#itemParamAddTable [name=cid]").val();

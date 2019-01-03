@@ -119,6 +119,7 @@
 		   data: $("#itemAddForm").serialize(),
 		   success: function(msg){
 			   $.messager.alert('提示','新增商品成功!');
+			   window.location.href = "/";
 		   },
 		   error: function(){
 			   $.messager.alert('提示','新增商品失败!');

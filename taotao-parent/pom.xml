@@ -8,9 +8,6 @@
 	<modules>
 		<module>../taotao-manager</module>
 		<module>../taotao-common</module>
-        <module>../taotao-rest</module>
-		<module>../taotao-portal</module>
-
 	</modules>
   
   <!-- 父目录集中定义依赖版本号  -->

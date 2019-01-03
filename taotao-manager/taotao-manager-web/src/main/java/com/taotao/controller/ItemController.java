@@ -58,7 +58,7 @@ public class ItemController {
 	 * @param desc 商品描述
 	 * @return
 	 */
-	@RequestMapping(value="/item/save", method=RequestMethod.POST)
+	@RequestMapping(value="/rest/item/add", method=RequestMethod.POST)
 	@ResponseBody
 	public ResponeResult createItem(TbItem item, String desc) {
 		ResponeResult result = itemService.insertItemAndDesc(item, desc);

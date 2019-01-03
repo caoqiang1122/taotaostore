@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.common.bean.EasyUiDataGridResponse;
 import com.taotao.common.bean.EasyUiTreeNodeResult;
+import com.taotao.common.utils.IdUtil;
 import com.taotao.mapper.TbItemCatMapper;
 import com.taotao.mapper.TbItemDescMapper;
 import com.taotao.pojo.*;
@@ -85,7 +86,7 @@ public class ItemServiceImpl implements ItemService {
 	@Override
 	public ResponeResult insertItemAndDesc(TbItem tbItem, String desc) {
 		//生成商品id
-		long itemId = 0;
+		long itemId = IdUtil.genItemId();
 		tbItem.setId(itemId);
 		//1-正常 2-下架 3-删除
 		tbItem.setStatus((byte)1);
@@ -104,6 +105,7 @@ public class ItemServiceImpl implements ItemService {
 		tbItemDesc.setUpdated(date);
 		tbItemDescMapper.insert(tbItemDesc);
 
-		return null;
+		//返回结果值
+		return ResponeResult.ok();
 	}
 }

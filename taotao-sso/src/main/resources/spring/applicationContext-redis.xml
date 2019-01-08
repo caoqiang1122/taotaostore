@@ -80,8 +80,8 @@
 	
 	<!-- redis客户端实现类 -->
 	<!-- 单机版 -->
-	<bean id="jedisClient" class="com.taotao.sso.dao.impl.JedisClientPool"/>
+	<bean id="jedisClient" class="com.taotao.sso.dao.Impl.JedisClientPool"/>
 	<!-- 集群版 -->
-	<!--<bean id="jedisClient" class="com.taotao.sso.dao.impl.JedisClientCluster"/>-->
+	<!--<bean id="jedisClient" class="com.taotao.sso.dao.Impl.JedisClientCluster"/>-->
 	
 </beans>

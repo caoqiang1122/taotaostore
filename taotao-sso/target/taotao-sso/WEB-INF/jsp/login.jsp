@@ -19,7 +19,7 @@
 <form id="formlogin" method="post" onsubmit="return false;">
     <div class=" w1" id="entry">
         <div class="mc " id="bgDiv">
-            <div id="entry-bg" clstag="passport|keycount|login|02" style="width: 511px; height: 455px; position: absolute; left: -44px; top: -44px; background: url(/images/544a11d3Na5a3d566.png) 0px 0px no-repeat;">
+            <div id="entry-bg" clstag="passport|keycount|login|02" style="width: 511px; height: 455px; position: absolute; left: -44px; top: -44px; background: url(../images/544a11d3Na5a3d566.png) 0px 0px no-repeat;">
 			</div>
             <div class="form ">
                 <div class="item fore1">

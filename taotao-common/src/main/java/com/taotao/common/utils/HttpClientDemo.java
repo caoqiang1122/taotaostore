@@ -1,7 +1,7 @@
-import com.sun.deploy.net.HttpUtils;
+package com.taotao.common.utils;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
-import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;

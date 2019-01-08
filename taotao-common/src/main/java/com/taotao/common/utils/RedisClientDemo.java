@@ -1,3 +1,5 @@
+package com.taotao.common.utils;
+
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 

@@ -11,6 +11,7 @@
 		<module>../taotao-portal</module>
 		<module>../taotao-rest</module>
 		<module>../taotao-sso</module>
+		<module>../taotao-api</module>
 	</modules>
   
   <!-- 父目录集中定义依赖版本号  -->
@@ -227,8 +228,8 @@
            <artifactId>maven-compiler-plugin</artifactId>
            <version>2.5.1</version>
            <configuration>
-               <source>1.8</source>
-               <target>1.8</target>
+               <source>1.7</source>
+               <target>1.7</target>
                <encoding>UTF-8</encoding>
                <showWarnings>true</showWarnings>
            </configuration>

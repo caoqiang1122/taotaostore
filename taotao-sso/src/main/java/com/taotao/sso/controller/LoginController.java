@@ -5,12 +5,14 @@ import com.taotao.sso.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 /**
  * @Title 单点登录
@@ -20,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Version 1.0
  */
 @Controller
-@RequestMapping("/user")
+@RequestMapping("/api/user")
 public class LoginController {
 
     @Autowired
@@ -28,7 +30,9 @@ public class LoginController {
 
     @RequestMapping(value="/login", method=RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult login(String username, String password,HttpServletRequest request, HttpServletResponse response) {
+    public TaotaoResult login(@RequestBody Map map, HttpServletRequest request, HttpServletResponse response) {
+        String username = (String) map.get("username");
+        String password = (String) map.get("password");
         TaotaoResult result = loginService.login(username, password, request, response);
         return result;
     }

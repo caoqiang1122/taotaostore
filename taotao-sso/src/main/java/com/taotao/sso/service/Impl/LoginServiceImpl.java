@@ -47,7 +47,8 @@ public class LoginServiceImpl implements LoginService {
     public TaotaoResult login(String username, String password, HttpServletRequest request, HttpServletResponse response) {
         //有效性校验
         if(StringUtils.isBlank(username) || StringUtils.isBlank(password)){
-            return TaotaoResult.build(400,"用户名和密码不能为空");
+            return TaotaoResult.build(400,"" +
+                    "用户名和密码不能为空");
         }
 
         //根据用户名查询数据库，然后进行密码校验

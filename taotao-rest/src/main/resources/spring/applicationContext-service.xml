@@ -12,6 +12,9 @@
 	<import resource="classpath:spring/consumer.xml"/>
 	<import resource="classpath:spring/producer.xml"/>
 
+	<!--引入rabbitMQ配置文件-->
+	<import resource="classpath:spring/rabbit.xml"/>
+
 	<!-- 配置service扫描器 -->
 	<context:component-scan base-package="com.taotao.rest.service"/>
 

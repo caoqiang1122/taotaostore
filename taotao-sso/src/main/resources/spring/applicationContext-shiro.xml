@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 配置缓存管理器 -->
+	<bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+		<!-- 指定 ehcache 的配置文件，下面会给到 -->
+		<property name="cacheManagerConfigFile" value="classpath:ehcache-shiro.xml"/>
+	</bean>
+
+	<!-- 配置进行授权和认证的 Realm，要新增一个java类来实现，下面会有，class=包名.类名，init-methood是初始化的方法 -->
+	<bean id="myRealm"
+		  class="com.taotao.sso.dao.Impl.MyRealm"
+		  init-method="setCredentialMatcher"></bean>
+
+	<!-- 配置 Shiro 的 SecurityManager Bean. -->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<property name="cacheManager" ref="cacheManager"/>
+		<property name="realm" ref="myRealm"/>
+	</bean>
+
+	<!-- 配置 Bean 后置处理器: 会自动的调用和 Spring 整合后各个组件的生命周期方法. -->
+	<bean id="lifecycleBeanPostProcessor"
+		  class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+	<!-- 配置 ShiroFilter bean: 该 bean 的 id 必须和 web.xml 文件中配置的 shiro filter 的 name 一致  -->
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<!-- 装配 securityManager -->
+		<property name="securityManager" ref="securityManager"/>
+		<!-- 配置登陆页面 -->
+		<property name="loginUrl" value="/index.jsp"/>
+		<!-- 登陆成功后的一面 -->
+		<property name="successUrl" value="/shiro-success.jsp"/>
+		<property name="unauthorizedUrl" value="/shiro-unauthorized.jsp"/>
+		<!-- 具体配置需要拦截哪些 URL, 以及访问对应的 URL 时使用 Shiro 的什么 Filter 进行拦截.  -->
+		<property name="filterChainDefinitions">
+			<value>
+				<!-- 配置登出: 使用 logout 过滤器 -->
+				/shiro-logout = logout
+				/shiro-* = anon
+				/user.jsp = roles[user]
+				/admin.jsp = roles[admin]
+				/** = authc
+			</value>
+		</property>
+	</bean>
+
+</beans>

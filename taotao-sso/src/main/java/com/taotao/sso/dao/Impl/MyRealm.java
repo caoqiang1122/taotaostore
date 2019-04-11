@@ -1,7 +1,6 @@
 package com.taotao.sso.dao.Impl;
 
 
-import com.taotao.common.bean.TaotaoResult;
 import com.taotao.mapper.TbUserMapper;
 import com.taotao.pojo.TbUser;
 import com.taotao.pojo.TbUserExample;

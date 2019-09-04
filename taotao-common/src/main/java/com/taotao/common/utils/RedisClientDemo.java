@@ -1,21 +1,63 @@
 package com.taotao.common.utils;
 
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.*;
+
+import java.util.HashSet;
+import java.util.Set;
+
 
 public class RedisClientDemo {
 
+    public static void main(String[] args) {
+
+        try {
+//            testRedisSingle();
+            testRedisCluster();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     //单机版测试
-    public void testRedisSingle() throws Exception{
+
+    public static void testRedisSingle() throws Exception{
         //创建一个jedis对象
-        Jedis jedis = new Jedis("192.168.192.130",6379);
-        jedis.set("name","曹强");
-        jedis.set("age","25");
+        Jedis jedis = new Jedis("10.73.242.247",7001);
+//        jedis.set("name","曹强");
+//        jedis.set("age","25");
         String string = jedis.get("name");
         System.out.println(string);
         System.out.println(jedis.get("age"));
 
         jedis.close();
+    }
+
+    public static void testRedisCluster() throws Exception{
+        JedisPoolConfig config = new JedisPoolConfig();
+        config.setMaxTotal(100);
+        config.setMaxIdle(50);
+        config.setMinIdle(20);
+        config.setMaxWaitMillis(6 * 1000);
+        config.setTestOnBorrow(true);
+
+
+        Set<HostAndPort> jedisClusterNodes = new HashSet<HostAndPort>();
+        jedisClusterNodes.add(new HostAndPort("10.73.242.247", 7001));
+        jedisClusterNodes.add(new HostAndPort("10.73.242.247", 7002));
+        jedisClusterNodes.add(new HostAndPort("10.73.242.247", 7003));
+        jedisClusterNodes.add(new HostAndPort("10.73.242.247", 7004));
+        jedisClusterNodes.add(new HostAndPort("10.73.242.247", 7005));
+        jedisClusterNodes.add(new HostAndPort("10.73.242.247", 7006));
+        //创建一个jedis对象
+        JedisCluster jedisCluster = new JedisCluster(jedisClusterNodes, 2000, 100,config);
+
+        jedisCluster.set("name","曹强");
+        jedisCluster.set("age","25");
+        String string = jedisCluster.get("name");
+        System.out.println(string);
+        System.out.println(jedisCluster.get("age"));
+
+        jedisCluster.close();
     }
 
     //使用连接池

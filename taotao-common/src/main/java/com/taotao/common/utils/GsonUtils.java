@@ -92,6 +92,12 @@ public class GsonUtils {
     }
 
 
+    /**
+     * json转map
+     * @param gsonString
+     * @param <T>
+     * @return
+     */
     public static <T> Map<String,T> gsonToMap(String gsonString){
         Map<String,T> map = null;
         if (gson != null){

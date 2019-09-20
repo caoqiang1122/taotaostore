@@ -83,5 +83,19 @@
 			<artifactId>javase</artifactId>
 			<version>3.3.0</version>
 		</dependency>
+
+		<!--googole Gson工具-->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.3</version>
+		</dependency>
+
+		<!--阿里  FastJson工具类-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.4</version>
+		</dependency>
     </dependencies>
 </project>
